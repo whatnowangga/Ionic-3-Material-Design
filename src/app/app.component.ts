@@ -5,6 +5,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { TabPage } from '../pages/tab/tab';
+import { GridPage } from '../pages/grid/grid';
+import { InputPage } from '../pages/input/input';
+import { ButtonPage } from '../pages/button/button';
+import { ExpansionPage } from '../pages/expansion/expansion';
+import { PaginatorPage } from '../pages/paginator/paginator';
+import { ProgressBarPage } from '../pages/progress-bar/progress-bar';
+import { ProgressSpinnerPage } from '../pages/progress-spinner/progress-spinner';
 
 @Component({
   templateUrl: 'app.html'
@@ -22,7 +30,15 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'List', component: ListPage },
+      { title: 'Tab', component: TabPage },
+      { title: 'Grid', component: GridPage },
+      { title: 'Input', component: InputPage },
+      { title: 'Button', component: ButtonPage },
+      { title: 'Expansion', component: ExpansionPage },
+      { title: 'Paginator', component: PaginatorPage },
+      { title: 'Progress Bar', component: ProgressBarPage },
+      { title: 'Progress Spinner', component: ProgressSpinnerPage }
     ];
 
   }
