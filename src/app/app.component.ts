@@ -13,6 +13,11 @@ import { ExpansionPage } from '../pages/expansion/expansion';
 import { PaginatorPage } from '../pages/paginator/paginator';
 import { ProgressBarPage } from '../pages/progress-bar/progress-bar';
 import { ProgressSpinnerPage } from '../pages/progress-spinner/progress-spinner';
+import { TablePage } from '../pages/table/table';
+import { TableSortingPage } from '../pages/table-sorting/table-sorting';
+import { SnackbarPage } from '../pages/snackbar/snackbar';
+import { SliderPage } from '../pages/slider/slider';
+import { SelectPage } from '../pages/select/select';
 
 @Component({
   templateUrl: 'app.html'
@@ -38,7 +43,12 @@ export class MyApp {
       { title: 'Expansion', component: ExpansionPage },
       { title: 'Paginator', component: PaginatorPage },
       { title: 'Progress Bar', component: ProgressBarPage },
-      { title: 'Progress Spinner', component: ProgressSpinnerPage }
+      { title: 'Progress Spinner', component: ProgressSpinnerPage },
+      { title: 'Table', component: TablePage },
+      { title: 'Table Sorting', component: TableSortingPage },
+      { title: 'Snackbar', component: SnackbarPage },
+      { title: 'Slider', component: SliderPage },
+      { title: 'Select', component: SelectPage }
     ];
 
   }

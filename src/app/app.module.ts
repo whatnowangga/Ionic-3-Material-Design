@@ -13,6 +13,11 @@ import { ExpansionPage } from '../pages/expansion/expansion';
 import { PaginatorPage } from '../pages/paginator/paginator';
 import { ProgressBarPage } from '../pages/progress-bar/progress-bar';
 import { ProgressSpinnerPage } from '../pages/progress-spinner/progress-spinner';
+import { TablePage } from '../pages/table/table';
+import { TableSortingPage } from '../pages/table-sorting/table-sorting';
+import { SnackbarPage } from '../pages/snackbar/snackbar';
+import { SliderPage } from '../pages/slider/slider';
+import { SelectPage } from '../pages/select/select';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -65,7 +70,12 @@ import {
         ExpansionPage,
         PaginatorPage,
         ProgressBarPage,
-        ProgressSpinnerPage
+        ProgressSpinnerPage,
+        TablePage,
+        TableSortingPage,
+        SnackbarPage,
+        SliderPage,
+        SelectPage
     ],
     imports: [
         BrowserModule,
@@ -115,7 +125,12 @@ import {
         ExpansionPage,
         PaginatorPage,
         ProgressBarPage,
-        ProgressSpinnerPage
+        ProgressSpinnerPage,
+        TablePage,
+        TableSortingPage,
+        SnackbarPage,
+        SliderPage,
+        SelectPage
     ],
     providers: [
         StatusBar,
