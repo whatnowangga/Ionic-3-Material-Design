@@ -4,6 +4,7 @@ Material Design components for IONIC 3
 
 ## Website
 [https://ionicindonesia.com](https://ionicindonesia.com)
+[https://play.google.com/store/apps/details?id=com.ionicmaterial.batamwebmedia] Playstore
 
 ## For Help
 Feel free to send me an email if you have any problems.
